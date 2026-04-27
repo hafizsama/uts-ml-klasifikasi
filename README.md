@@ -12,11 +12,15 @@ https://www.kaggle.com/datasets/joshmcadams/oranges-vs-grapefruit
 - Support Vector Machine (SVM)
 
 ## Tahapan
-1. Load dataset
+
+1. Load dataset menggunakan pandas
 2. Exploratory Data Analysis (EDA)
 3. Preprocessing (encoding, split data, scaling)
-4. Training model
-5. Evaluasi model
+4. Training model:
+   - Decision Tree
+   - Naive Bayes
+   - SVM
+5. Evaluasi model menggunakan accuracy, confusion matrix, dan classification report
 
 ## Hasil
 - Decision Tree: 0.9435
@@ -24,7 +28,8 @@ https://www.kaggle.com/datasets/joshmcadams/oranges-vs-grapefruit
 - SVM: 0.929
 
 ## Kesimpulan
-Model terbaik adalah SVM karena memiliki akurasi tertinggi.
+
+Model Decision Tree memberikan hasil terbaik dibandingkan model lainnya dalam mengklasifikasikan data.
 
 ## Author
 Nama: Muhammad Hafiz
